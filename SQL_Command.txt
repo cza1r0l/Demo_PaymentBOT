@@ -1,0 +1,23 @@
+INSERT INTO payments (
+    service_type, status, environment,
+    partner, amount, currency, user_uuid
+) VALUES (
+    'AVIA', 'paid', 'prod',
+    'AirDemo', 120.50, 'USD', 'user-1'
+);
+
+INSERT INTO payments (
+    service_type, status, environment,
+    partner, amount, currency, user_uuid
+) VALUES (
+    'ZHD', 'pending', 'prod',
+    'RailDemo', 45.00, 'USD', 'user-2'
+);
+
+INSERT INTO payments (
+    service_type, status, environment,
+    partner, amount, currency, user_uuid
+) VALUES (
+    'AVIA', 'cancelled', 'prod',
+    'AirDemo', 70.00, 'USD', 'user-3'
+);
